@@ -1,20 +1,20 @@
-<h1 align="center">Serenidade</h1>
+<h1 align="center">Funeral Plan</h1>
 
-## Index
+## Índice
 
-- [About](#about)
-- [Technologies Used](#technologies-used)
-- [How to Download the Project](#how-to-download-the-project)
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Baixar o Projeto](#como-baixar-o-projeto)
 
-## About
+## Sobre
 
 Sistema de Gestão Interno Funeral: plataforma que automatiza e organiza serviços e operações de funerárias.
 
 ---
 
-## Technologies Used
+## Tecnologias Utilizadas
 
-This project was developed using the following technologies:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [ReactJS](https://legacy.reactjs.org)
 - [React Helmet Async](https://github.com/staylor/react-helmet-async)
@@ -38,37 +38,43 @@ This project was developed using the following technologies:
 
 ---
 
-## How to Download the Project
+## Como Baixar o Projeto
 
-Follow these steps to get a copy of the project up and running on your local machine:
+Siga os passos abaixo para obter uma cópia do projeto e executá-lo localmente:
 
-1. **Clone the repository:**
+1. **Clone o repositório:**
     ```bash
-    git clone https://github.com/B2B-TECH-MAKER/serenidade.git
+    git clone https://github.com/vanessabrazuna/funeral-plan.git
     ```
 
-2. **Navigate to the project directory:**
+2. **Acesse o diretório do projeto:**
     ```bash
-    cd serenidade
+    cd funeral-plan
     ```
 
-3. **Navigate to the project directory:**
-    ```bash
-    cd web
+3. **Crie o arquivo `.env.local`:**
+
+    Crie um novo arquivo chamado `.env.local` na raiz do projeto e adicione as variáveis de ambiente necessárias. Exemplo:
+
+    ```env
+    NEXT_PUBLIC_API_URL=http://localhost:5173
+    VITE_ENABLE_API_DELAY=true
     ```
 
-4. **Install the dependencies:**
+4. **Instale as dependências:**
     ```bash
-    npm install
+    pnpm install
     ```
 
-5. **Start the project:**
+5. **Inicie o projeto:**
     ```bash
-    npm run dev
+    pnpm dev
     ```
+
+6. **Acesse a aplicação:**
+
+    O projeto estará disponível em: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-Developed with 💜 by [Vanessa Brazuna](https://github.com/vanessabrazuna)
-
----
+Desenvolvido com 💜 por [Vanessa Brazuna](https://github.com/vanessabrazuna)
