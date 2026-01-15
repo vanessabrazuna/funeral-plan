@@ -1,5 +1,7 @@
 <h1 align="center">Funeral Plan</h1>
 
+![Descrição](https://i.postimg.cc/3wnhRL2D/funeral-plan.png)
+
 ## Índice
 
 - [Sobre](#sobre)
